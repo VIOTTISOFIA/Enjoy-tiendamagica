@@ -1,0 +1,16 @@
+@import "./base/variables";
+@import "./base/generales";
+
+// Layout
+@import "./components/header";
+@import "./components/compras";
+@import "./components/contacto";
+@import "./components/index";
+@import "./components/nosotros";
+@import "./components/productos-servicios";
+@import "./components/footer";
+
+// Media queries
+@import "./base/mediaquery";
+
+

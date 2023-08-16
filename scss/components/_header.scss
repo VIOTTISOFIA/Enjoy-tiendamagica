@@ -1,0 +1,24 @@
+header {
+    background-color: #2F56D1;
+    color: black;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+header nav div img {
+    width: 100px;
+    height: 90px;
+}
+
+.button-nav {
+    border: 2px solid black;
+}
+
+.button-nav:hover {
+    background-color: #DD5543;
+    color: white
+}
