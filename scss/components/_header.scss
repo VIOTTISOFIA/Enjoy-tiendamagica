@@ -22,3 +22,46 @@ header nav div img {
     background-color: #DD5543;
     color: white
 }
+
+main {
+    background-color: #FBE4D5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero { 
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/imagesenjoy/backgroundimagehero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    font-weight: 800;
+    font-size: 40px;
+    -webkit-text-stroke: 2px white;
+    padding: 1px;
+    }
+    p {
+        color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    font-weight: 700;
+    font-size: 25px;
+    -webkit-text-stroke: 1px white;
+    border: 6px;
+    padding: 1px;
+    } 
+}

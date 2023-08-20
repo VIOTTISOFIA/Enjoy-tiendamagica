@@ -1,0 +1,25 @@
+footer {
+    div footer-contenedor {
+        display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #DD5543;
+
+        div footer-imagenes {
+        
+            img {
+                width: 50px;
+                height: 10px;
+            }
+        }
+        div container-2 {
+            h2 {
+                color: white;
+        margin-bottom: 25px;
+        font-size: 40px;
+            }  
+        }
+        
+    }
+}
