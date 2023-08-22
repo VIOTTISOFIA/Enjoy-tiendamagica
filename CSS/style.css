@@ -415,33 +415,34 @@ main h2 {
 
 /* ---- PAGINA DE NOSOTROS ---- */
 
-.container row {
+.container {
+    overflow-x: hidden;
     width:100%;
-    height: 200px;
+    height: 100%;
 
 }
 .container row col-md-6 col-sm-12 {
-    overflow-x: hidden;
+
     width: 100%;
-    height: 30px;
-    padding-top: 2px;
+    height: 100%;
+    padding-top: 15px;
 }
 
-.container p {
+.container row p {
     color: black;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content:center; 
     align-items: center;
     text-align: center;
-    font-weight: 900;
+    font-weight: 1500px;
     padding-top: 2px;
     }  
     
     @media screen and (max-width: 768px) 
     {
     .contenedor {
-    overflow-x: scroll;
+    overflow-x: hidden;
         }
     } 
 

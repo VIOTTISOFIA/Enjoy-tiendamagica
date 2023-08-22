@@ -1,17 +1,29 @@
 //* LISTAS
-es para poder actualizar la paleta de colores mas rapido 
 $color-primario: #2F56D1;
 $color-secundario:#FBE4D5;
 $color-terciario:#FD0303;
-#FDF703,
-#5EC2B8,
-#FBE4D5,
-#000000,
+$color-extras:#FDF703,#5EC2B8,#FBE4D5,#000000;
 
 
 //* MAPAS
 
+$a: (
+    //kEY   -    VALUE
+    text-decoration: none,
+    color-text:black,
+    bg-boton:#DD5543,
+    font-size:20px,
+    font-weight:900,
+);
+
+a. {
+    background-color: map-get ($a, bg-boton);
+    color-scheme: map-get ($a, color-text);
+    color: map-get ($a, text-decoration);
+    size: map-get ($a, font-size);
+    font-weight: map-get ($a, font-weight)
+}
+
 
 //* EXTENDS
-
-// * MIXIN 
+{}
