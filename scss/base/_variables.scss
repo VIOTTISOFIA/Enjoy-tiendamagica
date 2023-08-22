@@ -16,14 +16,12 @@ $a: (
     font-weight:900,
 );
 
-a. {
-    background-color: map-get ($a, bg-boton);
-    color-scheme: map-get ($a, color-text);
-    color: map-get ($a, text-decoration);
-    size: map-get ($a, font-size);
-    font-weight: map-get ($a, font-weight)
+.a {
+    background-color: map-get($a, bg-boton);
+    color-scheme: map-get($a, color-text);
+    color: map-get($a, text-decoration);
+    size: map-get($a, font-size);
+    font-weight: map-get($a, font-weight);
 }
 
 
-//* EXTENDS
-{}
