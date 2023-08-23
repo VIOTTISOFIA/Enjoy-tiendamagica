@@ -16,12 +16,39 @@ $a: (
     font-weight:900,
 );
 
-.a {
-    background-color: map-get($a, bg-boton);
-    color-scheme: map-get($a, color-text);
-    color: map-get($a, text-decoration);
-    size: map-get($a, font-size);
-    font-weight: map-get($a, font-weight);
+// *EXTENDS
+%flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+//* MIXIN
+@mixin bazarMixin {
+    border: 1px black;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    background-color: mediumaquamarine;
+    color: white;
+    margin: 20px;
+    display: inline-block;
+    img {
+        width: 250px;
+        height: 250px;
+    }
+    
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        background-color: #DD5543;
+        font-size: 20px;
+        font-weight: 900;
+    }
+}
 
