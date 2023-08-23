@@ -9,9 +9,9 @@
 
 /* ----RESET---- */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 /* ----HEADER---- */
@@ -129,7 +129,8 @@ main {
 .vermas div {
     border: 1px solid black;
     width: 90%;
-    height: 80% text-align: center;
+    height: 80%; 
+    text-align: center;
     color: white;
     margin: 5px;
     display: flex;
@@ -167,7 +168,6 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 .productos div {
@@ -202,8 +202,16 @@ main {
     color: black;
     background-color: #dd5543;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 800;
+    width: 200px;
+    height: 40px;
+    border: none;
+    transition: transform 0.3s ease;
 }
+.productos div a:hover {
+    transform: scale(1.2);
+}
+
 
 .bestseller {
     width: 100%;
@@ -470,12 +478,21 @@ main h2 {
         }
 
         .bazarinfantil div a {
-            text-decoration: none;
-            color: black;
-            background-color: #DD5543;
-            font-size: 20px;
-            font-weight: 900;    
-        }
+            
+                text-decoration: none;
+                color: black;
+                background-color: #dd5543;
+                font-size: 20px;
+                font-weight: 800;
+                width: 200px;
+                height: 40px;
+                border: none;
+                transition: transform 0.3s ease;
+            }
+            .productos div a:hover {
+                transform: scale(1.2);
+            }
+        
 
 
     /* PAGINA DE JUGUETES */
@@ -501,9 +518,16 @@ main h2 {
         .juguetes div a {
             text-decoration: none;
             color: black;
-            background-color: #DD5543;
+            background-color: #dd5543;
             font-size: 20px;
-            font-weight: 900;    
+            font-weight: 800;
+            width: 200px;
+            height: 40px;
+            border: none;
+            transition: transform 0.3s ease;
+        }
+        .productos div a:hover {
+            transform: scale(1.2);
         }
 
     /* PAGINA DE INDUMENTARIA */
@@ -529,7 +553,14 @@ main h2 {
         .indumentaria div a {
             text-decoration: none;
             color: black;
-            background-color: #DD5543;
+            background-color: #dd5543;
             font-size: 20px;
-            font-weight: 900;
+            font-weight: 800;
+            width: 200px;
+            height: 40px;
+            border: none;
+            transition: transform 0.3s ease;
+        }
+        .productos div a:hover {
+            transform: scale(1.2);
         } 

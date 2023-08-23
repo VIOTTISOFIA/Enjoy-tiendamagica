@@ -1,56 +1,73 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@0,200;0,400;1,800&display=swap");
+.container .row p, .hero, .vermas div, .productos, .productos div, .carousel-item h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /* ----RESET---- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-.bazarinfantil div {
-  border: 1px black;
-  width: 250px;
-  height: 400px;
-  text-align: center;
-  background-color: mediumaquamarine;
-  color: white;
-  margin: 20px;
-  display: inline-block; }
-  .bazarinfantil div img {
-    width: 250px;
-    height: 250px; }
-  .bazarinfantil div h3 {
-    margin-top: 20px;
-    margin-bottom: 40px; }
-  .bazarinfantil div a {
-    text-decoration: none;
-    color: black;
-    background-color: #DD5543;
-    font-size: 20px;
-    font-weight: 900; }
+.a {
+  background-color: #DD5543;
+  color-scheme: black;
+  color: none;
+  size: 20px;
+  font-weight: 900; }
 
-.juguetes div {
-  border: 1px black;
-  width: 250px;
-  height: 400px;
+.container .row p {
+  color: black;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
-  background-color: mediumaquamarine;
-  color: white;
-  margin: 20px;
-  display: inline-block; }
-  .juguetes div img {
-    width: 250px;
-    height: 250px; }
-  .juguetes div h3 {
-    margin-top: 20px;
-    margin-bottom: 40px; }
-  .juguetes div a {
-    text-decoration: none;
-    color: black;
-    background-color: #DD5543;
-    font-size: 20px;
-    font-weight: 900; }
+  font-weight: 1500px;
+  padding-top: 2px; }
 
-.indumentaria div {
+.hero {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/imagesenjoy/backgroundimagehero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+  text-align: right;
+  flex-direction: column; }
+
+.vermas div {
+  border: 1px solid black;
+  width: 90%;
+  height: 80%;
+  text-align: center;
+  color: white;
+  margin: 5px;
+  flex-direction: column; }
+
+.productos {
+  width: 100%;
+  height: 80%;
+  flex-wrap: wrap; }
+
+.productos div {
+  border: 1px solid black;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  background-color: mediumaquamarine;
+  color: white;
+  margin: 20px;
+  flex-direction: column; }
+
+.carousel-item h5 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  -webkit-text-stroke: 1px black;
+  font-weight: 900;
+  font-size: 30px; }
+
+.bazarinfantil {
   border: 1px black;
   width: 250px;
   height: 400px;
@@ -59,18 +76,80 @@
   color: white;
   margin: 20px;
   display: inline-block; }
-  .indumentaria div img {
+  .bazarinfantil img {
     width: 250px;
     height: 250px; }
-  .indumentaria div h3 {
+  .bazarinfantil h3 {
     margin-top: 20px;
     margin-bottom: 40px; }
-  .indumentaria div a {
+  .bazarinfantil a {
     text-decoration: none;
     color: black;
-    background-color: #DD5543;
+    background-color: #dd5543;
     font-size: 20px;
-    font-weight: 900; }
+    font-weight: 800;
+    width: 200px;
+    height: 40px;
+    border: none;
+    transition: transform 0.3s ease; }
+  .bazarinfantil .productos div a:hover {
+    transform: scale(1.2); }
+
+.juguetes {
+  border: 1px black;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  background-color: mediumaquamarine;
+  color: white;
+  margin: 20px;
+  display: inline-block; }
+  .juguetes img {
+    width: 250px;
+    height: 250px; }
+  .juguetes h3 {
+    margin-top: 20px;
+    margin-bottom: 40px; }
+  .juguetes a {
+    text-decoration: none;
+    color: black;
+    background-color: #dd5543;
+    font-size: 20px;
+    font-weight: 800;
+    width: 200px;
+    height: 40px;
+    border: none;
+    transition: transform 0.3s ease; }
+  .juguetes .productos div a:hover {
+    transform: scale(1.2); }
+
+.indumentaria {
+  border: 1px black;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  background-color: mediumaquamarine;
+  color: white;
+  margin: 20px;
+  display: inline-block; }
+  .indumentaria img {
+    width: 250px;
+    height: 250px; }
+  .indumentaria h3 {
+    margin-top: 20px;
+    margin-bottom: 40px; }
+  .indumentaria a {
+    text-decoration: none;
+    color: black;
+    background-color: #dd5543;
+    font-size: 20px;
+    font-weight: 800;
+    width: 200px;
+    height: 40px;
+    border: none;
+    transition: transform 0.3s ease; }
+  .indumentaria .productos div a:hover {
+    transform: scale(1.2); }
 
 header {
   background-color: #2F56D1;
@@ -288,7 +367,13 @@ main {
         color: black;
         background-color: #dd5543;
         font-size: 20px;
-        font-weight: 900; }
+        font-weight: 800;
+        width: 200px;
+        height: 40px;
+        border: none;
+        transition: transform 0.3s ease; }
+      main .vermas .productos a:hover {
+        transform: scale(1.2); }
 
 .carousel-item img {
   width: 15%;
