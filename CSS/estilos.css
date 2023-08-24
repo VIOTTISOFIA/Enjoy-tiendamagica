@@ -408,6 +408,37 @@ main {
     text-align: center;
     font-weight: 900; }
 
+.todoslosproductos div {
+  border: 1px black;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  background-color: mediumaquamarine;
+  color: white;
+  margin: 20px;
+  display: inline-block; }
+
+.todoslosproductos div img {
+  width: 250px;
+  height: 250px; }
+
+.todoslosproductos div h3 {
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+.todoslosproductos div a {
+  text-decoration: none;
+  color: black;
+  background-color: #DD5543;
+  font-size: 20px;
+  font-weight: 900; }
+
+.todoslosproductos h2 {
+  color: darkgoldenrod;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 900; }
+
 footer div footer-contenedor {
   display: flex;
   flex-direction: row;
