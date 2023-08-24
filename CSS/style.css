@@ -259,7 +259,7 @@ main {
 }
 
 /* ----FOOTER ----*/
-footer .footer-contenedor {
+.footer-contenedor {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -267,7 +267,7 @@ footer .footer-contenedor {
     background-color: #DD5543;
 }
 
-Footer .contacto div img {
+.footer-imagenes div img {
     width: 50px;
     height: 10px;
 }
@@ -282,8 +282,7 @@ Footer .contacto div img {
     font-size: 40px;
 }
 @media screen and (max-width:950px) {
-
-    footer .footer-contenedor {
+.footer-contenedor {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -291,7 +290,7 @@ Footer .contacto div img {
         background-color: #DD5543;
     }
     
-    Footer .contacto div img {
+    .footer-imagenes div img {
         width: 50px;
         height: 10px;
     }
@@ -308,7 +307,7 @@ Footer .contacto div img {
 }
 
 @media screen and (max-width:350px) {
-footer .footer-contenedor {
+.footer-contenedor {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -316,7 +315,7 @@ footer .footer-contenedor {
     background-color: #DD5543;
 }
 
-Footer .contacto div img {
+.footer-imagenes div img {
     width: 50px;
     height: 10px;
 }
