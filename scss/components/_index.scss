@@ -49,7 +49,7 @@ main {
     justify-content: center;
 
    div{
-    border: 1px solid black;
+    border: 1px solid;
     width: 90%;
     height: 80%;
     text-align: center;
@@ -81,23 +81,24 @@ main {
  .bestseller {
     width: 100%;
     h2 {
-        width: 99%;
+    width: 99%;
     height: 20%;
     text-align: center;
     color: #DD5543;
     font-family: 'Poppins', sans-serif;
     background-color: #6AB1B6;
     font-weight: 900;
-    font-size: 30px;
-    padding: 10px;
-    margin-top: 50px;
+    font-size:30px;
+    padding:10px;
+    margin-top:50px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     }
  }
-.productos {
-    border: 1px solid black;
+
+.productos div {
+    border-radius:20px;
     width: 250px;
     height: 400px;
     text-align: center;
