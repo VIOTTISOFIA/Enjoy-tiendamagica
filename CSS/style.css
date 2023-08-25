@@ -336,39 +336,51 @@ main {
 .todoslosproductos div {
     border: 1px black;
     width: 250px;
-    height: 400px;
+    height: 375px;
     text-align: center;
     background-color: mediumaquamarine;
     color: white;
-    margin: 20px;
+    margin: 15px;
     display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba (0, 0, 0.2);
+    overflow: hidden;
+    transition: all 0.25s;
 }
+.todoslosproductos:hover 
+{
+    transform: scale(0.9);}
 
 .todoslosproductos div img {
-    width: 250px;
-    height: 250px;
-}
-
-.todoslosproductos div h3 {
-    margin-top: 20px;
+        width: 250px;
+        height: 250px;
+    }
+    .todoslosproductos div h3 {
+        margin-top: 20px;
     margin-bottom: 40px;
-}
-
-.todoslosproductos div a {
-    text-decoration: none;
-    color: black;
-    background-color: #DD5543;
-    font-size: 20px;
-    font-weight: 900;
-}
+    }
+    .todoslosproductos div a {
+        
+        text-decoration: none;
+        color:black;
+        background-color:#dd5543;
+        font-size:20px;
+        font-weight: 800;
+        width: 200px;
+        height:40px;
+        border:none;
+    } 
 
 
 .todoslosproductos h2 {
-
+    
     color: darkgoldenrod;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-weight: 900;
+    font-weight: 200;
+    font-size: 75px;
+    border: 4px orange;
+    padding: 1px;
 }
 
 

@@ -275,7 +275,7 @@ main {
     display: flex;
     justify-content: center; }
     main .vermas div {
-      border: 1px solid black;
+      border: 1px solid;
       width: 90%;
       height: 80%;
       text-align: center;
@@ -318,8 +318,8 @@ main {
         display: flex;
         justify-content: center;
         align-items: flex-start; }
-    main .vermas .productos {
-      border-radius: 1px solid black;
+    main .vermas .productos div {
+      border-radius: 20px;
       width: 250px;
       height: 400px;
       text-align: center;
@@ -330,16 +330,16 @@ main {
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-      main .vermas .productos img {
+      main .vermas .productos div img {
         width: 250px;
         height: 250px;
         display: flex;
         justify-content: space-between;
         align-items: center; }
-      main .vermas .productos h3 {
+      main .vermas .productos div h3 {
         margin-top: 20px;
         margin-bottom: 40px; }
-      main .vermas .productos a {
+      main .vermas .productos div a {
         text-decoration: none;
         color: black;
         background-color: #dd5543;
@@ -349,7 +349,7 @@ main {
         height: 40px;
         border: none;
         transition: transform 0.3s ease; }
-      main .vermas .productos a:hover {
+      main .vermas .productos div a:hover {
         transform: scale(1.2); }
 
 .carousel-item img {
