@@ -127,12 +127,12 @@ main {
 }
 
 .vermas div {
-    border: 1px solid black;
+    border-radius: 10px;
     width: 90%;
-    height: 80%; 
+    height: 100%; 
     text-align: center;
     color: white;
-    margin: 5px;
+    margin: px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,11 +140,14 @@ main {
 }
 
 .vermas div img {
-    width: 90%;
-    height: 80%;
+    width: 70%;
+    height: 160%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 .vermas div a {
