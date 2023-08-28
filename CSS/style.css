@@ -16,8 +16,8 @@
 
 /* ----HEADER---- */
 header {
-    background-color: #2F56D1;
-    color: black;
+    background-color: white;
+    color: #2F56D1 ;
     position: sticky;
     top: 0;
     display: flex;
@@ -237,7 +237,7 @@ main {
 /* Corousel boostrap */
 .carousel-item img {
     width: 15%;
-    height: auto;
+    height: 20%;
 
 }
 
