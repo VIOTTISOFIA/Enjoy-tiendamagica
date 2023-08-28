@@ -141,7 +141,7 @@ main {
 
 .vermas div img {
     width: 70%;
-    height: 160%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
