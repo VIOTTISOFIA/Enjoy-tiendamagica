@@ -78,7 +78,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
 }
 
 
@@ -370,7 +369,7 @@ main {
     }
     .todoslosproductos div h3 {
         margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     }
     .todoslosproductos div a {
         
@@ -399,6 +398,9 @@ main {
 
 
 /* ----PAGINA DE CONTACTO ---- */
+.form {
+    margin-bottom: 10px;
+}
 main h2 {
     color: darkgoldenrod;
     font-family: 'Poppins', sans-serif;
@@ -432,6 +434,9 @@ main h2 {
 .form-control {
     width: 100%;
     margin:5px;
+}
+.map iframe {
+    overflow-x: hidden;
 }
 /* ----PAGINA DE COMPRAS---- */
 
@@ -508,6 +513,7 @@ main h2 {
     overflow-x: hidden;
     width:100%;
     height: 100%;
+    margin-bottom: 15px;
 
 }
 .container row col-md-6 col-sm-12 {
