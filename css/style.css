@@ -435,8 +435,14 @@ main h2 {
     width: 100%;
     margin:5px;
 }
+.map {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
 .map iframe {
-    overflow-x: hidden;
+    max-width: 1200px;
+    width:100%;
 }
 /* ----PAGINA DE COMPRAS---- */
 
@@ -523,15 +529,16 @@ main h2 {
     padding-top: 15px;
 }
 
-.container row p {
+.container p {
     color: black;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content:center; 
     align-items: center;
     text-align: center;
-    font-weight: 1500px;
+    font-weight: 2000px;
     padding-top: 2px;
+    font-size: large;
     }  
     
     @media screen and (max-width: 768px) 
