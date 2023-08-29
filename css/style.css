@@ -330,6 +330,7 @@ main {
 
 /* ----PAGINA DE PRODUCTOS ---- */
 
+
 .todoslosproductos div {
     border: 1px black;
     width: 250px;
@@ -424,6 +425,7 @@ main h2 {
 .grid-galeria {
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: repeat (3, 1fr);
     grid-auto-rows: 200px;
@@ -644,4 +646,72 @@ main h2 {
             height:40px;
             border:none;
         } 
+
+       /* ----------- CSS animacion letras ----------- */
+.letters-container span:nth-child(1n) {
+    animation: letters-left 1.5s infinite linear;
+  }
+  .letters-container span:nth-child(2n) {
+    animation: letters-right 1.5s infinite linear;
+  }
+  
+  .letters-container span {
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: -6px;
+  }
+  
+  .letters-container .spacer {
+    margin: 3px;
+  } 
+  
+  /* ---------- Animation ---------- */
+  @keyframes letters-left {
+      0%, 100% {
+       transform: rotate(0deg);
+      }
+      25% {
+       transform: rotate(10deg);
+      }
+      75% {
+        transform: rotate(-10deg);
+      }
+  }
+  
+  @keyframes letters-right {
+      0%, 100% {
+       transform: rotate(0deg);
+      }
+      25% {
+       transform: rotate(-10deg);
+      }
+      75% {
+        transform: rotate(10deg);
+      }
+  }
+  
+  .main {
+    width: 100%;
+    box-shadow: #FBE4D5 ;
+    margin: 5px auto;
+    border-radius: 8px;
+  }
+  .letters-container {
+    display: flex;
+    justify-content: center;
+    background-color:#FBE4D5;
+    border-radius: 8px 8px 0 0;
+    font-family: "Tw Cen MT";
+  }
+  
+  .letters-container h1  {
+    font-size: 35px;
+    letter-spacing: -6px;
+    margin: 0;
+    padding: 20px;
+  }
+  .letters-container p span {
+    color: red;
+  }
+   
 
