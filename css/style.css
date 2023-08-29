@@ -200,21 +200,6 @@ main {
     margin-bottom: 40px;
 }
 
-.productos div a {
-    text-decoration: none;
-    color: black;
-    background-color: #dd5543;
-    font-size: 20px;
-    font-weight: 800;
-    width: 200px;
-    height: 40px;
-    border: none;
-    transition: transform 0.3s ease;
-}
-.productos div a:hover {
-    transform: scale(1.2);
-}
-
 
 .bestseller {
     width: 100%;
@@ -371,27 +356,17 @@ main {
         margin-top: 20px;
     margin-bottom: 20px;
     }
-    .todoslosproductos div a {
-        
-        text-decoration: none;
-        color:black;
-        background-color:#dd5543;
-        font-size:20px;
-        font-weight: 800;
-        width: 200px;
-        height:40px;
-        border:none;
-    } 
+
 
 
 .todoslosproductos h2 {
     
-    color: darkgoldenrod;
+    color:#DD5543 ;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 200;
     font-size: 75px;
-    border: 4px orange;
+    border: 4px;
     padding: 1px;
 }
 
@@ -402,12 +377,12 @@ main {
     margin-bottom: 10px;
 }
 main h2 {
-    color: darkgoldenrod;
+    color: #DD5543 ;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 200;
     font-size: 75px;
-    border: 4px orange;
+    border: 4px;
     padding: 1px;
     
 }
@@ -453,6 +428,9 @@ main h2 {
     grid-template-columns: repeat (3, 1fr);
     grid-auto-rows: 200px;
     gap: 30px;
+}
+.grid-galeria h2 {
+    color:#DD5543
 }
 
 .grid-galeria div img {
