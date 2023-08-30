@@ -146,24 +146,23 @@ main {
     text-align: center;
     color: black;
     background-color: #dd554363;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
 }
 
-@media screen and (max-width:500px) {
-    .vermas div {
-    border-radius: 10px;
-    width: 90%;
-    height: 100%; 
+@media screen and (max-width:768px) {
+    .vermas div a {
+    position: absolute;
+    width: auto;
+    height:auto;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
     text-align: center;
-    color: white;
-    margin: px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    }
+    color: black;
+    background-color: #dd554363;
+    font-size: 16px;
+    font-weight: 900;
+} 
 }
 
 .productos {
@@ -173,6 +172,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-size:16px;
 }
 
 .productos div {
@@ -198,8 +198,9 @@ main {
 }
 
 .productos div h3 {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
 }
 
 
@@ -345,7 +346,7 @@ main {
     background-color:#dd554338;
     color: black;
     margin: 16px;
-    display: inline-block;
+    display:inline-block;
     border-radius: 8px;
     font-size:16px;
 }
