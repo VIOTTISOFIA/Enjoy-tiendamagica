@@ -661,5 +661,11 @@ main h2 {
 .carrito {
     width:auto;
     height: auto;
-    margin-left: 300px;
+    margin-left: 40px;
 }
+ /* form */
+ .buscador {
+    width: 350px;
+    margin-left: 200px;
+
+ }
