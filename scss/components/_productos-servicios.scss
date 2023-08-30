@@ -1,12 +1,15 @@
 .todoslosproductos div {
     border: 1px black;
     width: 250px;
-    height: 400px;
+    height: 375px;
+    font-size: 16px;
     text-align: center;
-    background-color: mediumaquamarine;
-    color: white;
-    margin: 20px;
-    display: inline-block;
+    background-color:#dd554338;
+    color: black;
+    margin: 16px;
+    display:inline-block;
+    border-radius: 8px;
+    font-size:16px;
 }
 
 .todoslosproductos div img {
@@ -15,24 +18,7 @@
 }
 
 .todoslosproductos div h3 {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
 }
-
-.todoslosproductos div a {
-    text-decoration: none;
-    color: black;
-    background-color: #DD5543;
-    font-size: 20px;
-    font-weight: 900;
-}
-
-
-.todoslosproductos h2 {
-
-    color: darkgoldenrod;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-weight: 900;
-}
-

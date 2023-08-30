@@ -1,28 +1,42 @@
 main {
-    h2 {
-        color: darkgoldenrod;
-        font-family: 'Poppins', sans-serif;
-        text-align: center;
-        font-weight: 200;
-        font-size: 75px;
-        border: 4px orange;
-        padding: 1px;
-
+    .form {
+        margin-bottom: 10px;
     }
-    .contactoyubicacion div {
+}
+
+.contactoyubicacion div {
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    p {
         color: black;
         text-align: center;
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-
-        p {
-            color: black;
-    text-align: center;
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-        }
-
+        justify-content: flex-start;
+        align-items: stretch;
     }
+}
+
+.formulario-col input {
+    width: 100%;
+    margin: 5px;
+}
+
+.form-control {
+    width: 100%;
+    margin: 5px;
+}
+
+.map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.map iframe {
+    max-width: 1200px;
+    width: 100%;
 }

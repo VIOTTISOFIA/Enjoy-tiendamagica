@@ -89,3 +89,79 @@
     @include bazarMixin;
     }
 
+      /* ----------- CSS animacion letras ----------- */
+.letters-container span:nth-child(1n) {
+    animation: letters-left 1.5s infinite linear;
+}
+.letters-container span:nth-child(2n) {
+    animation: letters-right 1.5s infinite linear;
+}
+
+.letters-container span {
+    display: inline-flex;
+    justify-content: center;
+    letter-spacing: -6px;
+}
+
+.letters-container .spacer {
+    margin: 3px;
+} 
+
+  /* ---------- Animation ---------- */
+@keyframes letters-left {
+    0%, 100% {
+    transform: rotate(0deg);
+    }
+    25% {
+    transform: rotate(10deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+}
+
+@keyframes letters-right {
+    0%, 100% {
+    transform: rotate(0deg);
+    }
+    25% {
+    transform: rotate(-10deg);
+    }
+    75% {
+        transform: rotate(10deg);
+    }
+    }
+
+.main {
+    width: 100%;
+    box-shadow: #FBE4D5 ;
+    margin: 5px auto;
+    border-radius: 8px;
+}
+.main h2 {
+    color: #DD5543;
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    font-weight: 800px;
+    font-size:48px;
+    -webkit-text-stroke: 1px white;
+    border: 6px;
+    padding: 1px;   
+}
+.letters-container {
+    display: flex;
+    justify-content: center;
+    background-color:#FBE4D5;
+    border-radius: 8px 8px 0 0;
+    font-family: "Tw Cen MT";
+}
+
+.letters-container h1  {
+    font-size: 35px;
+    letter-spacing: -6px;
+    margin: 0;
+    padding: 20px;
+}
+.letters-container p span {
+    color: red;
+}

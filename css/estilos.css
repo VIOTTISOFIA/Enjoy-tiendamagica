@@ -5,9 +5,6 @@
   justify-content: center;
   align-items: center; }
 
-.bazarMixin:hover {
-  transform: scale(1.2); }
-
 img {
   width: 250px;
   height: 250px; }
@@ -15,17 +12,6 @@ img {
 h3 {
   margin-top: 20px;
   margin-bottom: 40px; }
-
-a {
-  text-decoration: none;
-  color: black;
-  background-color: #dd5543;
-  font-size: 20px;
-  font-weight: 800;
-  width: 200px;
-  height: 40px;
-  border: none;
-  border-radius: 4px solid; }
 
 /* ----RESET---- */
 * {
@@ -90,47 +76,108 @@ a {
   font-size: 30px; }
 
 .bazarinfantil {
+  border: 1px black;
   width: 250px;
-  height: 400px;
-  border-radius: 8px solid;
-  box-shadow: 0 2px 2px rgba 0, 0, 0.2;
-  overflow: hidden;
-  transition: all 0.25s;
+  height: 375px;
   text-align: center;
-  background-color: mediumaquamarine;
-  color: white;
-  margin: 20px;
-  display: inline-block; }
+  background-color: #dd554338;
+  color: black;
+  margin: 15px;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px; }
 
 .juguetes {
+  border: 1px black;
   width: 250px;
-  height: 400px;
-  border-radius: 8px solid;
-  box-shadow: 0 2px 2px rgba 0, 0, 0.2;
-  overflow: hidden;
-  transition: all 0.25s;
+  height: 375px;
   text-align: center;
-  background-color: mediumaquamarine;
-  color: white;
-  margin: 20px;
-  display: inline-block; }
+  background-color: #dd554338;
+  color: black;
+  margin: 15px;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px; }
 
 .indumentaria {
+  border: 1px black;
   width: 250px;
-  height: 400px;
-  border-radius: 8px solid;
-  box-shadow: 0 2px 2px rgba 0, 0, 0.2;
-  overflow: hidden;
-  transition: all 0.25s;
+  height: 375px;
   text-align: center;
-  background-color: mediumaquamarine;
-  color: white;
-  margin: 20px;
-  display: inline-block; }
+  background-color: #dd554338;
+  color: black;
+  margin: 15px;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px; }
+
+/* ----------- CSS animacion letras ----------- */
+.letters-container span:nth-child(1n) {
+  animation: letters-left 1.5s infinite linear; }
+
+.letters-container span:nth-child(2n) {
+  animation: letters-right 1.5s infinite linear; }
+
+.letters-container span {
+  display: inline-flex;
+  justify-content: center;
+  letter-spacing: -6px; }
+
+.letters-container .spacer {
+  margin: 3px; }
+
+/* ---------- Animation ---------- */
+@keyframes letters-left {
+  0%, 100% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(10deg); }
+  75% {
+    transform: rotate(-10deg); } }
+
+@keyframes letters-right {
+  0%, 100% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(-10deg); }
+  75% {
+    transform: rotate(10deg); } }
+
+.main {
+  width: 100%;
+  box-shadow: #FBE4D5;
+  margin: 5px auto;
+  border-radius: 8px; }
+
+.main h2 {
+  color: #DD5543;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 800px;
+  font-size: 48px;
+  -webkit-text-stroke: 1px white;
+  border: 6px;
+  padding: 1px; }
+
+.letters-container {
+  display: flex;
+  justify-content: center;
+  background-color: #FBE4D5;
+  border-radius: 8px 8px 0 0;
+  font-family: "Tw Cen MT"; }
+
+.letters-container h1 {
+  font-size: 35px;
+  letter-spacing: -6px;
+  margin: 0;
+  padding: 20px; }
+
+.letters-container p span {
+  color: red; }
 
 header {
-  background-color: #2F56D1;
-  color: black;
+  background-color: white;
+  color: white;
   position: sticky;
   top: 0;
   display: flex;
@@ -211,27 +258,38 @@ main {
     width: 100%;
     text-align: center; }
 
-main h2 {
-  color: darkgoldenrod;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  font-weight: 200;
-  font-size: 75px;
-  border: 4px orange;
-  padding: 1px; }
+main .form {
+  margin-bottom: 10px; }
 
-main .contactoyubicacion div {
+.contactoyubicacion div {
   color: black;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
-  main .contactoyubicacion div p {
+  .contactoyubicacion div p {
     color: black;
     text-align: center;
     display: flex;
     justify-content: flex-start;
     align-items: stretch; }
+
+.formulario-col input {
+  width: 100%;
+  margin: 5px; }
+
+.form-control {
+  width: 100%;
+  margin: 5px; }
+
+.map {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.map iframe {
+  max-width: 1200px;
+  width: 100%; }
 
 main {
   background-color: #FBE4D5;
@@ -318,7 +376,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: flex-start; }
-    main .vermas .productos div {
+    main .vermas .productos {
       border-radius: 20px;
       width: 250px;
       height: 400px;
@@ -330,16 +388,16 @@ main {
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-      main .vermas .productos div img {
+      main .vermas .productos img {
         width: 250px;
         height: 250px;
         display: flex;
         justify-content: space-between;
         align-items: center; }
-      main .vermas .productos div h3 {
+      main .vermas .productos h3 {
         margin-top: 20px;
         margin-bottom: 40px; }
-      main .vermas .productos div a {
+      main .vermas .productos a {
         text-decoration: none;
         color: black;
         background-color: #dd5543;
@@ -349,7 +407,7 @@ main {
         height: 40px;
         border: none;
         transition: transform 0.3s ease; }
-      main .vermas .productos div a:hover {
+      main .vermas .productos a:hover {
         transform: scale(1.2); }
 
 .carousel-item img {
@@ -388,33 +446,24 @@ main {
 .todoslosproductos div {
   border: 1px black;
   width: 250px;
-  height: 400px;
+  height: 375px;
+  font-size: 16px;
   text-align: center;
-  background-color: mediumaquamarine;
-  color: white;
-  margin: 20px;
-  display: inline-block; }
+  background-color: #dd554338;
+  color: black;
+  margin: 16px;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 16px; }
 
 .todoslosproductos div img {
   width: 250px;
   height: 250px; }
 
 .todoslosproductos div h3 {
-  margin-top: 20px;
-  margin-bottom: 40px; }
-
-.todoslosproductos div a {
-  text-decoration: none;
-  color: black;
-  background-color: #DD5543;
-  font-size: 20px;
-  font-weight: 900; }
-
-.todoslosproductos h2 {
-  color: darkgoldenrod;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  font-weight: 900; }
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1em; }
 
 footer div footer-contenedor {
   display: flex;
@@ -426,7 +475,7 @@ footer div footer-contenedor {
     width: 50px;
     height: 10px; }
   footer div footer-contenedor div container-2 h2 {
-    color: white;
+    color: black;
     margin-bottom: 25px;
     font-size: 40px; }
 
@@ -458,7 +507,7 @@ footer div footer-contenedor {
     width: 35px;
     height: 35px; }
   .footer-contenedor h2 {
-    color: white;
+    color: black;
     margin-bottom: 25px;
     font-size: 40px; } }
 
@@ -476,8 +525,10 @@ footer div footer-contenedor {
     width: 35px;
     height: 35px; }
   .footer-contenedor h2 {
-    color: white;
+    color: black;
     margin-bottom: 25px;
     font-size: 40px; } }
 
-   
+@media screen and (max-width: 768px) {
+  .contenedor {
+    overflow-x: hidden; } }
