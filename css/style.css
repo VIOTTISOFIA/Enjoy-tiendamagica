@@ -347,6 +347,7 @@ main {
     margin: 16px;
     display: inline-block;
     border-radius: 8px;
+    font-size:16px;
 }
 
 
@@ -355,8 +356,9 @@ main {
         height: 250px;
     }
     .todoslosproductos div h3 {
-        margin-top: 20px;
-    margin-bottom: 20px;
+        margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
     }
 
 /* ----PAGINA DE CONTACTO ---- */
