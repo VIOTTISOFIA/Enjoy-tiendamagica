@@ -68,6 +68,8 @@
         color:black;
         margin-bottom: 25px;
         font-size: 40px;
+        width: auto;
+        height: auto;
     }
     }
  //*Nosotros
@@ -78,3 +80,10 @@
     overflow-x: hidden;
         }
     } 
+
+@media screen and (max-width:768px) {
+    .buscador {
+    width: 60px;
+    margin-left:10px;
+    }
+    }

@@ -66,14 +66,31 @@
     flex-direction: column;
     @extend %flex;
 }
+.carousel-item img {
+    width: 15%;
+    height: 20%;
+}
 .carousel-item h5 {
     color: white;
     font-family: 'Poppins', sans-serif;
     -webkit-text-stroke: 1px black;
     font-weight: 900;
-    font-size: 30px;
-    @extend %flex;
+    font-size: 1rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
+.carousel-item p {
+    color: #DD5543;
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-stroke: 1px black;
+    font-weight: 900;
+    font-size: 1rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
 
 //* MIXIN
 
