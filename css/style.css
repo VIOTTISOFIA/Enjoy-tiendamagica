@@ -657,4 +657,9 @@ main h2 {
     color: red;
 }
 
-
+/* carrito de compras  */
+.carrito {
+    width:auto;
+    height: auto;
+    margin-left: 300px;
+}
