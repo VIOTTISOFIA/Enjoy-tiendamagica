@@ -445,6 +445,17 @@ main {
   color: #DD5543;
   font-family: 'Poppins', sans-serif; }
 
+/* carrito de compras  */
+.carrito {
+  width: auto;
+  height: auto;
+  margin-left: 40px; }
+
+/* form */
+.buscador {
+  width: 350px;
+  margin-left: 200px; }
+
 .container {
   overflow-x: hidden;
   width: 100%;
@@ -457,9 +468,6 @@ main {
   .container row p {
     color: black;
     font-family: 'Poppins', sans-serif;
-    /* display: flex;
-    justify-content:center; */
-    /* align-items: center; */
     text-align: center;
     font-weight: 900; }
 

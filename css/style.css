@@ -231,7 +231,6 @@ main {
 .carousel-item img {
     width: 15%;
     height: 20%;
-
 }
 
 .carousel-item h5 {
@@ -254,7 +253,6 @@ main {
     display: flex;
     justify-content: right;
     align-items: center;
-
 }
 
 /* ----FOOTER ----*/
@@ -317,13 +315,11 @@ main {
     align-items: center;
     background-color: #DD5543;
 }
-
 .footer-imagenes div img {
     width: 50px;
     height: 10px;
 }
 .footer-imagenes img {
-
     width: 35px;
     height: 35px;
 }
@@ -335,8 +331,6 @@ main {
 }
 
 /* ----PAGINA DE PRODUCTOS ---- */
-
-
 .todoslosproductos div {
     border: 1px black;
     width: 250px;
@@ -367,9 +361,10 @@ main {
 }  
 .contactoyubicacio div {
     color: black;
+    font-size:32px; 
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
 }
 
@@ -378,8 +373,8 @@ main {
     font-size: 16px;
     text-align: center;
     display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
 }
 .formulario-col input{
     width: 100%;
@@ -395,8 +390,70 @@ main {
     justify-content: center;
 }
 .map iframe {
-    max-width: 1200px;
+    max-width:800 px;
     width:100%;
+}
+@media screen and (min-width:350px) {
+
+    .contactoyubicacio div {
+        color: black;
+        font-size:16px; 
+        text-align: center;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    .contactoyubicacion col p {
+        color: black;
+        font-size: 8px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    .map {
+        width: 100%;
+        display:flex;
+        justify-content: center;
+    }
+    .map iframe {
+        max-width: 800px;
+        width:100%;
+    }
+}
+.contactoyubicacio div {
+    color: black;
+    font-size:32px; 
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.contactoyubicacio div {
+    color: black;
+    font-size:32px; 
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.contactoyubicacion col p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactoyubicacion col p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 /* ----PAGINA DE COMPRAS---- */
 
@@ -418,23 +475,18 @@ main {
     -webkit-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.49);
     -moz-box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.49);
 }
-
 .img-1 {
     grid-column: span 2;
 }
-
 .img-4 {
     grid-column: span 2;
 }
-
 .img-7 {
     grid-column: span 2;
 }
-
 .grid-item {
     position: relative;
 }
-
 .grid-item h3 {
     position: absolute;
     bottom: 0;
@@ -442,7 +494,6 @@ main {
     background-color: rgba(0, 0, 0, 0.37);
     width: 100%;
     text-align: center;
-
 }
 
 @media screen and (max-width:950px) {
@@ -522,8 +573,8 @@ main {
     
 
     .bazarinfantil div img {
-            width: 250px;
-            height: 250px;
+        width: 250px;
+        height: 250px;
         }
         .bazarinfantil div h3 {
         margin-top: 10px;
@@ -569,11 +620,11 @@ main {
     }
     
     .indumentaria div img {
-            width: 250px;
-            height: 250px;
+        width: 250px;
+        height: 250px;
         }
         .indumentaria div h3 {
-            margin-top: 10px;
+        margin-top: 10px;
         margin-bottom: 10px;
         font-size: 1em;
         }
@@ -631,10 +682,10 @@ main {
     color: #DD5543;
     font-family: 'Poppins', sans-serif;
     text-align:center;
-    font-weight: 800px;
-    font-size:48px;
+    font-weight: 500px;
+    font-size:45px;
     -webkit-text-stroke: 1px white;
-    border: 6px;
+    border: 5px;
     padding: 1px;   
 }
 .letters-container {
