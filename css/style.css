@@ -285,7 +285,7 @@ main {
 @media screen and (max-width:950px) {
 .footer-contenedor {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         background-color: #DD5543;
@@ -359,7 +359,7 @@ main {
 .form {
     margin-top:10px;
     margin-bottom: 10px;
-    width:1000px;
+    width:100%;
 }  
 .contactoyubicacio div {
     color: black;
@@ -388,7 +388,7 @@ main {
 .form col-m-12 {
     margin-top:10px;
     margin-bottom: 10px;
-    width:1000px;
+    width:500px;
 } 
 }
 
