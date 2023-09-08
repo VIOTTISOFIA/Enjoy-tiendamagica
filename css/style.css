@@ -273,19 +273,27 @@ main {
     width: 35px;
     height: 35px;
 }
+.conteiner-2 {
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+    
 .conteiner-2 a{
     color: black;
     margin-bottom: 25px;
     font-size: 2rem; 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:center;
     background-color: #DD5543;
     transition:all 400ms ease;
 }
 .conteiner-2 a:hover {
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     transform: translateY(-3%);
+    border-radius: 100%;
+    width:36px;
 }
 .footer-contenedor img {
     width: 35px;
