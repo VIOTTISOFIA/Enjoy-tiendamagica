@@ -273,7 +273,7 @@ main {
     width: 35px;
     height: 35px;
 }
-.conteiner-2 h2 a{
+.conteiner-2 a{
     color: black;
     margin-bottom: 25px;
     font-size: 2rem; 
@@ -283,9 +283,9 @@ main {
     background-color: #DD5543;
     transition:all 400ms ease;
 }
-.conteiner h2 a:hover {
+.conteiner a:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transform: translateY(-3%);
+    transform: translateY(3px);
 }
 .footer-contenedor img {
     width: 35px;
