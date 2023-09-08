@@ -94,17 +94,6 @@
 
 //* MIXIN
 
-.bazarinfantil {
-    @include bazarMixin;
-    }
-    
-    .juguetes {
-    @include bazarMixin;
-    }
-    
-    .indumentaria {
-    @include bazarMixin;
-    }
 
       /* ----------- CSS animacion letras ----------- */
 .letters-container span:nth-child(1n) {
